@@ -4,6 +4,7 @@ public class Circle extends Shape{
         r = radio;
     }
     public double area (){
-        return pi*r*r;
+
+        return math.pi*r*r;
     }
 }
