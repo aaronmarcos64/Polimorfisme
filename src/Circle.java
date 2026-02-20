@@ -5,6 +5,6 @@ public class Circle extends Shape{
     }
     public double area (){
 
-        return math.pi*r*r;
+        return Math.PI*r*r;
     }
 }
