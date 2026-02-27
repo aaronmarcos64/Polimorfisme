@@ -19,6 +19,14 @@ public class Main {
 }
 
     private static void sort(Shape[] v) {
+        int n = v.length;
+        for (int i = 0; i < n - 1; i++) {
+
+            for (int j = 0; j < n - 1 - i; j++) {
+                if (v[j].area() > v[j + 1].area()) {
+                    Shape temp = v[j];
+                    v[j] = v[j + 1];
+                    v[j + 1] = temp;
     }
 
     private static void print(Shape[] v) {
