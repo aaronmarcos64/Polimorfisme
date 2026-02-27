@@ -18,7 +18,12 @@ public class Main {
     print(v);
 }
 
-    private static double suma(Shape[] v) {
+    private static void sort(Shape[] v) {
+    }
 
+    private static void print(Shape[] v) {
+    }
+
+    private static double suma(Shape[] v) {
     }
 }
