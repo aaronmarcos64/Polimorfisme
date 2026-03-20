@@ -35,7 +35,6 @@ public class Main {
     private static void print(Shape[] v) {
         for (int i = 0; i < v.length; i++) {
             System.out.println(v[i].area());
-            ;
         }
     }
 
